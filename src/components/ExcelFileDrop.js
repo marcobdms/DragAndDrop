@@ -31,7 +31,7 @@ const ExcelFileDrop = ({ onFileDrop }) => {
       {isDragActive ? (
         <p>Suelta la imagen aquí...</p>
       ) : (
-        <p>Arrastra y suelta la imagen aquí, o haz clic para seleccionarlo.</p>
+        <p style={{ textAlign: 'center' }}>Arrastra y suelta la imagen aquí, o haz clic para seleccionarlo.</p>
       )}
     </div>
   );

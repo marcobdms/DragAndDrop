@@ -43,7 +43,7 @@ const FileSelect = () => {
   };
   return (
     <div>
-      <h2>Selecciona un archivo:</h2>
+      <h2 className='centered-text'>Selecciona un archivo:</h2>
       <select value={selectedFile} onChange={handleFileSelect}>
         <option value="">Selecciona un archivo</option>
         {fileList.map((filename) => (

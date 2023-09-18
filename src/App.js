@@ -1,6 +1,6 @@
 import React from 'react';
 import ExcelFileDrop from './components/ExcelFileDrop';
-import FileSelect from './components/FileSelect';
+// import FileSelect from './components/FileSelect';
 
 const App = () => {
   const handleFileDrop = (file) => {
@@ -29,7 +29,7 @@ const App = () => {
     <div className="App">
       <h1>Arrastra y suelta la imagen aqui</h1>
       <ExcelFileDrop onFileDrop={handleFileDrop} />
-      <FileSelect />
+      {/* <FileSelect /> */}
     </div>
 
   );
